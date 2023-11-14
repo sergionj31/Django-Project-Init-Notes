@@ -1,0 +1,12 @@
+$ mkdir djangogirls
+$ cd djangogirls
+$ python -m venv myvenv
+$ myvenv\Scripts\activate
+(myvenv) ~$ python -m pip install --upgrade pip
+$ python -m pip install -r requirements.txt
+(myvenv)> django-admin.exe startproject mysite .
+
+Changing settings
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'static'
+ALLOWED_HOSTS = ['127.0.0.1']
