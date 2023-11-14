@@ -1,0 +1,31 @@
+<<<ATRIBUTOS>>>
+> Texto previsualizado por defecto en el campo ( label= "")
+  label="Fecha de Nacimiento"
+
+> Campo obligatorio o no ( required= )
+  required=True
+
+> Longitud de String
+  max_length=
+  min_length=
+
+> Valor de Numbers
+  max_value=
+  min_value=
+
+> Formato de en entrada ( input_formats= )
+  - Formato de fecha
+    input_formats=['%d/%m/%Y']
+
+> Valor inicial en el campo ( initial= )
+  - Fecha y Hora del día de hoy
+    initial = datetime.date.today
+
+> Entrada de contraseña
+  widget=forms.PasswordInput
+
+> Entrada Oculta
+  widget=forms.HiddenInput
+
+> Texto auxiliar de ayuda ( hel_text= "")
+  help_text="Igual o superior a la fecha de inicio."

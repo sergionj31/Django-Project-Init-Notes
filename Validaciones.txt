@@ -1,2 +1,0 @@
-initial = datetime.date.today
-input_formats = ()
